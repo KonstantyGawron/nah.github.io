@@ -1,0 +1,205 @@
+body 
+{
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    margin: 0 !important;
+    background-image: url(img/oriental-tiles.png);
+}
+
+#container
+{
+    width: 100%;
+}
+
+#header
+{   
+    width: 100%;
+    padding: 40px 0;
+    background: rgb(61,57,57);
+    background: linear-gradient(58deg, rgba(61,57,57,1) 0%, rgba(101,101,77,1) 52%);
+}
+
+#logo
+{
+    width: 450px;
+    font-size: 48px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.square
+{
+    width: 50%;
+    float: left;
+}
+
+#box
+{
+    width: 300px;
+    height: 250px;
+    background-color: #000000;
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+    padding: 50px;
+    -webkit-box-shadow: 9px 9px 1px 4px rgba(255,247,98,1);
+    -moz-box-shadow: 9px 9px 1px 4px rgba(255,247,98,1);
+    box-shadow: 9px 9px 1px 4px rgba(255,247,98,1);
+}
+input[type=text],
+input[type=password]
+{
+    width: 300px;
+    background-color: #efefef;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(238, 241, 59, 0.9);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(238, 241, 59, 0.9);
+    box-shadow: 0px 0px 10px 2px rgb(238, 241, 59, 0.9);
+    border: 2px solid #edf036;
+    background-color: #e9f3e9;
+    color: #dfdfa5;
+} 
+
+input[type=submit]
+{
+    width: 300px;
+    background-color: #d9db47;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 15px;
+    outline: none;
+}
+
+input[type=submit]:focus 
+{
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(238, 241, 59, 0.9);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(238, 241, 59, 0.9);
+    box-shadow: 0px 0px 15px 2px rgb(238, 241, 59, 0.9);
+}
+
+input[type=submit]:hover 
+{
+    background-color: #c8ca36;
+}
+
+#maincontent
+{
+    background-color: black;
+    float: left;
+    width: 320px;
+    padding: 25px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 100px;
+    text-align: left;
+    -webkit-box-shadow: 9px 9px 1px 4px rgba(255,247,98,1);
+    -moz-box-shadow: 9px 9px 1px 4px rgba(255,247,98,1);
+    box-shadow: 9px 9px 1px 4px rgba(255,247,98,1);
+}
+
+h1
+{
+    text-align: center;
+}
+
+.social
+{
+    width: 100%;
+    text-align: center;
+    background-color: #292929;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+}
+
+.socialdivs
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fb
+{
+    float: left;
+    width: 250px;
+    height: 155px;
+}
+
+.fb:hover
+{
+    background-color: #2378C8;
+}
+
+.yt
+{
+    float: left;
+    width: 250px;
+    height: 155px;
+}
+
+.yt:hover
+{
+    background-color: #E82C2C;
+}
+
+.tw
+{
+    float: left;
+    width: 250px;
+    height: 155px;
+}
+
+.tw:hover
+{
+    background-color: #22B9D4;
+}
+
+.twitch
+{
+    float: left;
+    width: 250px;
+    height: 155px;
+}
+
+.twitch:hover
+{
+    background-color: #8822D4;
+}
+
+#footer
+{
+    background-color: #000000;
+    padding: 30px 0;
+    text-align: center;
+    color: #edf036;
+}
+
+a.sociallink
+{
+    display: block;
+    text-decoration: none;
+    width: 255px;
+    height: 155px;
+    color: white;
+}
